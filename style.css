@@ -102,6 +102,7 @@ h2 {
 
 .gallery img {
   box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
+  border-radius: 5%;
 }
 
 .grid-col--2 {
