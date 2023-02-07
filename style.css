@@ -12,6 +12,7 @@
 /* COLORS */
 /* Large Text: #2b8a3e */
 /* Background: #e6fcf5 */
+/* Section background: #eef0e1 */
 
 * {
   padding: 0;
@@ -57,7 +58,7 @@ h2 {
 }
 
 .sub-title {
-  /* font-family: "Roboto", sans-serif; */
+  font-family: "Patrick Hand SC", cursive;
   font-size: 3.6rem;
 }
 
@@ -167,6 +168,34 @@ h2 {
   gap: 2.4rem;
 }
 
-.instruction {
+.experience a:link,
+.experience a:visited {
+  text-decoration: none;
+  color: #702483;
+}
+
+.experience a:hover,
+.experience a:active {
+  color: rgb(132, 23, 23);
+  cursor: pointer;
+}
+
+.experience h3 {
+  font-family: "Patrick Hand SC", cursive;
+}
+
+.experience .instruction {
+  font-size: 1.8rem;
+}
+
+.footer {
+  padding: 2.4rem;
+  height: 6rem;
+  width: 100%;
+  background-color: #eef0e1;
+}
+
+.footer-text {
+  display: block;
   font-size: 1.8rem;
 }
