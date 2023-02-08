@@ -134,9 +134,22 @@ h2 {
   gap: 2.4em;
 }
 
-.gallery img {
+.gallery img,
+.t-manual {
   box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
   border-radius: 5%;
+  transition: all 0.5s;
+}
+
+.gallery img:hover,
+.t-manual:hover {
+  transform: translateY(-1.2rem);
+  cursor: pointer;
+}
+
+.t-manual {
+  width: 70%;
+  margin-top: 2.5rem;
 }
 
 .grid-col--2 {
