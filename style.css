@@ -58,8 +58,9 @@ h2 {
 }
 
 .sub-title {
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Gentium Book Basic", serif;
   font-size: 3.6rem;
+  color: rgb(180, 36, 36);
 }
 
 .trabant-header-img {
@@ -88,6 +89,7 @@ h2 {
   flex-direction: column;
   gap: 2.4rem;
   font-size: 2.4rem;
+  line-height: 3.3rem;
   width: 70%;
   justify-content: center;
   background-color: #eef0e1;
@@ -101,14 +103,7 @@ h2 {
   line-height: 3.3rem;
 }
 
-.timeline {
-  line-height: 3.3rem;
-}
-
 .timeline-heading {
-  font-family: "Titan One", cursive;
-  color: #2b8a3e;
-  font-size: 5.5rem;
   padding-bottom: 3rem;
 }
 
@@ -189,9 +184,9 @@ h2 {
   margin-top: 6.4rem;
 }
 
-.experience-heading {
+/* .experience-heading {
   font-size: 5.5rem;
-}
+} */
 
 .experience-component img,
 .feature-component img {
@@ -219,7 +214,8 @@ h2 {
 }
 
 .experience h3 {
-  font-family: "Patrick Hand SC", cursive;
+  font-family: "Gentium Book Basic", serif;
+  color: rgb(180, 36, 36);
 }
 
 .experience .instruction {

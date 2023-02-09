@@ -1,0 +1,130 @@
+/* BELOW 1296 px */
+
+@media (max-width: 81em) {
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+/* BELOW 1136 px */
+
+@media (max-width: 71em) {
+  .features,
+  .timeline,
+  .experience {
+    width: 80%;
+  }
+}
+
+/* BELOW 1006 px */
+
+@media (max-width: 63em) {
+  .footer-text {
+    font-size: 1.6rem;
+  }
+
+  .experience-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* BELOW 912px */
+
+@media (max-width: 57em) {
+  .footer-text {
+    font-size: 1.3rem;
+  }
+
+  cite {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .features p,
+  .timeline p,
+  .experience p {
+    line-height: 2.5rem;
+  }
+
+  .features,
+  .timeline,
+  .experience {
+    width: 90%;
+  }
+
+  .trabant-header-text {
+    width: 60%;
+  }
+
+  /* BELOW 720px */
+  @media (max-width: 45em) {
+    .feature-component {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .trabant-header-text {
+      width: 70%;
+    }
+
+    .trabant-header-img {
+      width: 60%;
+    }
+  }
+
+  /* BELOW 528px */
+  @media (max-width: 33em) {
+    .features,
+    .timeline,
+    .experience {
+      width: 90%;
+      padding: 3.5rem;
+    }
+  }
+
+  /* BELOW 442px */
+
+  @media (max-width: 27em) {
+    cite {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+
+    .title {
+      font-size: 5rem;
+    }
+
+    .sub-title {
+      font-size: 2.3rem;
+    }
+
+    .features p,
+    .timeline p,
+    .experience p {
+      font-size: 1.5rem;
+    }
+
+    .footer-text {
+      font-size: 1rem;
+    }
+  }
+
+  /* BELOW 336px */
+
+  @media (max-width: 21em) {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+  }
+}
