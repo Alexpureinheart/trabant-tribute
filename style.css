@@ -113,7 +113,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-self: flex-start;
 }
 
 .gallery {
@@ -139,6 +138,7 @@ h2 {
   box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
   border-radius: 5%;
   transition: all 0.5s;
+  height: intrinsic;
 }
 
 .gallery img:hover,
