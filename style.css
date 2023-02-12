@@ -131,6 +131,7 @@ h2 {
   /* display: grid; */
   grid-template-columns: 2fr 1fr;
   gap: 2.4em;
+  position: relative;
 }
 
 .gallery img,
@@ -239,4 +240,12 @@ h2 {
   height: 11.7rem;
   width: 18.7rem;
   overflow: hidden;
+}
+
+.expanded {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
