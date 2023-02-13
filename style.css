@@ -118,8 +118,10 @@ h2 {
 .gallery {
   margin-top: 3.6rem;
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 2fr 1fr;
   width: 70%;
+  gap: 2.4em;
+  position: relative;
 }
 
 .gallery-heading {
@@ -127,14 +129,7 @@ h2 {
   justify-content: flex-start;
 }
 
-.gallery {
-  /* display: grid; */
-  grid-template-columns: 2fr 1fr;
-  gap: 2.4em;
-  position: relative;
-}
-
-.gallery img,
+.gallery-image,
 .t-manual {
   box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
   border-radius: 5%;
@@ -252,6 +247,17 @@ h2 {
   position: absolute;
   border: 2rem solid #181818;
   width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: none;
+  z-index: 10;
+}
+
+.enlarged-manual {
+  position: absolute;
+  border: 2rem solid #181818;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
