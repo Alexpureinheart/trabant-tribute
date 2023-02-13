@@ -119,8 +119,8 @@ h2 {
   margin-top: 3.6rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  width: 70%;
-  /* width: 106.3rem; */
+  width: 7wv;
+  /* width: 70%; */
   gap: 2.4em;
   position: relative;
 }
@@ -147,7 +147,7 @@ h2 {
 }
 
 .t-manual {
-  width: 70%;
+  width: 7vw;
   margin-top: 2.5rem;
 }
 
