@@ -87,6 +87,10 @@
       width: 90%;
       padding: 3.5rem;
     }
+
+    .gallery-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   /* BELOW 442px */
@@ -113,6 +117,10 @@
 
     .footer-text {
       font-size: 1rem;
+    }
+
+    gallery {
+      width: 50%;
     }
   }
 

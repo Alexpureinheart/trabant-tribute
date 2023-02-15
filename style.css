@@ -109,6 +109,10 @@ h2 {
 
 /* GALLERY SECTION */
 
+.gallery-heading {
+  margin-bottom: 2rem;
+}
+
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -119,6 +123,7 @@ h2 {
 .gallery {
   display: flex;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 .gallery-img {
