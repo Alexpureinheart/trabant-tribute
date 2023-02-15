@@ -1,13 +1,13 @@
-const galleryImages = document.querySelectorAll(".gallery-image");
+const galleryImages = document.querySelectorAll(".gallery-img");
 
 galleryImages.forEach(function (image) {
   image.addEventListener("click", function () {
     image.classList.toggle("enlarged");
-    image.classList.toggle("gallery-image");
+    // image.classList.toggle("gallery-image");
   });
 });
 
-const tManual = document.querySelector(".t-manual");
+// const tManual = document.querySelector(".t-manual");
 
 // code below is producing weird results
 
