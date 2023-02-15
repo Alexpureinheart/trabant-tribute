@@ -109,7 +109,63 @@ h2 {
 
 /* GALLERY SECTION */
 
-.gallery-div {
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.4rem;
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+.img-container {
+  width: 10.5rem;
+  height: 7rem;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+/* SPECIAL STYLING FOR INDIVIDUAL GALLARY IMG */
+.img-2 {
+  transform: translateY(-2rem);
+}
+
+.img-3 {
+  transform: translateY(-5.5rem);
+}
+
+.img-5 {
+  height: 11.9rem;
+}
+
+.img-6 {
+  height: 11.9rem;
+}
+
+.img-7 {
+  height: 11.9rem;
+}
+
+.img-9 {
+  transform: translateY(-6.3rem);
+}
+
+.img-10 {
+  transform: translateY(-7rem);
+}
+
+.img-12 {
+  transform: translateY(-7rem);
+}
+
+/* .gallery-div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,7 +217,7 @@ h2 {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 2.4em;
-}
+} */
 
 /* EXPERIENCE SECTION */
 

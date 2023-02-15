@@ -57,9 +57,13 @@ html {
 }
 
 .img-9 {
-  transform: translateY(-4rem);
+  transform: translateY(-5.3rem);
 }
 
 .img-10 {
   transform: translateY(-4rem);
+}
+
+.img-12 {
+  transform: translateY(-3rem);
 }
