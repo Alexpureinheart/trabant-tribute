@@ -18,6 +18,10 @@
   .experience {
     width: 80%;
   }
+
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* BELOW 1006 px */
@@ -117,10 +121,6 @@
 
     .footer-text {
       font-size: 1rem;
-    }
-
-    gallery {
-      width: 50%;
     }
   }
 
