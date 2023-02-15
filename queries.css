@@ -122,6 +122,10 @@
     .footer-text {
       font-size: 1rem;
     }
+
+    .gallery-container {
+      gap: 1.5rem;
+    }
   }
 
   /* BELOW 336px */
@@ -133,6 +137,10 @@
 
     h3 {
       font-size: 2rem;
+    }
+
+    .gallery-container {
+      gap: 1rem;
     }
   }
 }
