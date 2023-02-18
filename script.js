@@ -3,7 +3,7 @@ const galleryImages = document.querySelectorAll(".gallery-img");
 galleryImages.forEach(function (image) {
   image.addEventListener("click", function () {
     image.classList.toggle("enlarged");
-    // image.classList.toggle("gallery-image");
+    // image.classList.toggle("gallery-img");
   });
 });
 
