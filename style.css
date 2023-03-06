@@ -137,6 +137,7 @@ h2 {
   height: 100%;
   overflow: hidden;
   border-radius: 10%;
+  box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
 }
 
 /* SPECIAL STYLING FOR INDIVIDUAL GALLARY IMG */
@@ -172,6 +173,13 @@ h2 {
   transform: translateY(-7rem);
 }
 
+.t-manual {
+  display: block;
+  width: 82rem;
+  margin-top: 2.5rem;
+  border-radius: 8%;
+  box-shadow: 1rem 0.5rem 0.5rem rgba(102, 101, 101, 0.247);
+}
 /* .gallery-div {
   display: flex;
   flex-direction: column;
