@@ -22,6 +22,10 @@
   .gallery-container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .t-manual {
+    width: 61.6em;
+  }
 }
 
 /* BELOW 1006 px */
@@ -94,6 +98,9 @@
 
     .gallery-container {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .t-manual {
+      width: 40.8em;
     }
   }
 
